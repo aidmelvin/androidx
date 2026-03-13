@@ -63,7 +63,7 @@ dependencyResolutionManagement {
         maven {
             url = "https://packages.jetbrains.team/maven/p/ij/intellij-dependencies"
             content {
-                includeGroupByRegex("com\\.intellij\\.platform.*")
+                includeGroupByRegex("com\\.intellij\\.platform*")
             }
         }
     }
